@@ -1,0 +1,74 @@
+[
+    {
+        "file_name": "vite.config.js",
+        "file_path": "/kaggle/input/portfolio-template/vite.config.js",
+        "file_type": "JS",
+        "description": "Vite configuration file for a React project, enabling React plugin and camelCase CSS modules.\n"
+    },
+    {
+        "file_name": "index.html",
+        "file_path": "/kaggle/input/portfolio-template/index.html",
+        "file_type": "HTML",
+        "description": "A basic HTML file (`index.html`) serving as the entry point for a React (or similar JSX-based) application.  It includes meta tags for charset, viewport, and favicon, and loads the main application script from `/src"
+    },
+    {
+        "file_name": "utils.js",
+        "file_path": "/kaggle/input/portfolio-template/src/utils.js",
+        "file_type": "JS",
+        "description": "Utility functions for generating image URLs, based on a relative path.\n"
+    },
+    {
+        "file_name": "main.jsx",
+        "file_path": "/kaggle/input/portfolio-template/src/main.jsx",
+        "file_type": "JSX",
+        "description": "This React JSX file (`main.jsx`) renders the main application component (`App.jsx`) within a `React.StrictMode` context, initializing the application and importing necessary CSS and fonts (`index.css`, `Outfit`, `Roboto`).\n"
+    },
+    {
+        "file_name": "App.jsx",
+        "file_path": "/kaggle/input/portfolio-template/src/App.jsx",
+        "file_type": "JSX",
+        "description": "This React component (`App.jsx`) renders a portfolio website layout, including a navigation bar (`Navbar`), hero section (`Hero`), about section (`About`), experience section (`Experience`), projects section (`Projects`), and contact section (`Contact`).  It uses"
+    },
+    {
+        "file_name": "Hero.jsx",
+        "file_path": "/kaggle/input/portfolio-template/src/components/Hero/Hero.jsx",
+        "file_type": "JSX",
+        "description": "A React component displaying a hero section with a personal introduction (\"Hi, I'm Ada\"), a brief description, a contact button, and a profile image, utilizing styled components and an image loading utility.\n"
+    },
+    {
+        "file_name": "Navbar.jsx",
+        "file_path": "/kaggle/input/portfolio-template/src/components/Navbar/Navbar.jsx",
+        "file_type": "JSX",
+        "description": "A responsive navigation bar component for a portfolio website.  It features a title, a menu button toggling a list of navigation links (About, Experience, Projects, Contact), and uses CSS modules for styling.\n"
+    },
+    {
+        "file_name": "Projects.jsx",
+        "file_path": "/kaggle/input/portfolio-template/src/components/Projects/Projects.jsx",
+        "file_type": "JSX",
+        "description": "A React component that displays a section of project cards.  It reads project data from `projects.json` and renders each project using the `ProjectCard` component.\n"
+    },
+    {
+        "file_name": "ProjectCard.jsx",
+        "file_path": "/kaggle/input/portfolio-template/src/components/Projects/ProjectCard.jsx",
+        "file_type": "JSX",
+        "description": "A React component (`ProjectCard.jsx`) that displays a project card with an image, title, description, skill list, and links to a demo and source code.  It uses styled-components (via `ProjectCard.module.css`)"
+    },
+    {
+        "file_name": "Experience.jsx",
+        "file_path": "/kaggle/input/portfolio-template/src/components/Experience/Experience.jsx",
+        "file_type": "JSX",
+        "description": "A React component displaying professional experience.  It renders a skills section from `skills.json` and a work history section from `history.json`, using images and styled components.\n"
+    },
+    {
+        "file_name": "Contact.jsx",
+        "file_path": "/kaggle/input/portfolio-template/src/components/Contact/Contact.jsx",
+        "file_type": "JSX",
+        "description": "A React component (`Contact.jsx`) rendering a contact section with email, LinkedIn, and GitHub links, styled using CSS modules.  It uses a helper function `getImageUrl` for image path resolution.\n"
+    },
+    {
+        "file_name": "About.jsx",
+        "file_path": "/kaggle/input/portfolio-template/src/components/About/About.jsx",
+        "file_type": "JSX",
+        "description": "A React component displaying an \"About Me\" section with a profile image, and a list of skills (Frontend, Backend, UI Design) using styled components and custom image loading.\n"
+    }
+]
